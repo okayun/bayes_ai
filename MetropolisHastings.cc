@@ -38,6 +38,8 @@ std::ostream& operator << (std::ostream& os, Datum& d) {
   return os;
 }
 
+// const の初期化でエラー出るよ
+
 class MetropolisHastings {
  public:
   const int N; // データセットの数
